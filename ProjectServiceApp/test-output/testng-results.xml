@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="1" total="9" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41286" started-at="2023-01-25T03:45:03Z" finished-at="2023-01-25T03:45:44Z">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="HomePageTest.verifyClickOnInventoryProductsMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnInventoryProductsMoreInfo" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickOnSendSMS()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnSendSMS" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickOnUserIconSignOut()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnUserIconSignOut" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickOnreparationMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnreparationMoreInfo" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyclickOnSendEmail()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyclickOnSendEmail" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+      </group> <!-- SmokeTest -->
+      <group name="RegressionTest">
+        <method signature="HomePageTest.verifyClickOnClientMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnClientMoreInfo" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyClickOnPlusIcon()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnPlusIcon" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+        <method signature="HomePageTest.verifyclickOnAddReparation()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyclickOnAddReparation" class="com.obsqura.ProjectServiceApp.HomePageTest"/>
+      </group> <!-- RegressionTest -->
+    </groups>
+    <test name="Test2" duration-ms="13277" started-at="2023-01-25T03:45:03Z" finished-at="2023-01-25T03:45:16Z">
+      <class name="com.obsqura.ProjectServiceApp.LoginPageTest">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.LoginPageTest@23529fee]" name="initialiseBrowser" is-config="true" duration-ms="13" started-at="2023-01-25T09:15:03Z" finished-at="2023-01-25T09:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.LoginPageTest@23529fee]" name="initializeBrowser" is-config="true" duration-ms="8550" started-at="2023-01-25T09:15:03Z" finished-at="2023-01-25T09:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyLoginWithValidUserNameAndPassword()[pri:0, instance:com.obsqura.ProjectServiceApp.LoginPageTest@23529fee]" name="verifyLoginWithValidUserNameAndPassword" duration-ms="3890" started-at="2023-01-25T09:15:11Z" finished-at="2023-01-25T09:15:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUserNameAndPassword -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.LoginPageTest@23529fee]" name="browserQuit" is-config="true" duration-ms="786" started-at="2023-01-25T09:15:15Z" finished-at="2023-01-25T09:15:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithValidUserNameAndPassword status=SUCCESS method=LoginPageTest.verifyLoginWithValidUserNameAndPassword()[pri:0, instance:com.obsqura.ProjectServiceApp.LoginPageTest@23529fee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.ProjectServiceApp.LoginPageTest -->
+    </test> <!-- Test2 -->
+    <test name="Test" duration-ms="41286" started-at="2023-01-25T03:45:03Z" finished-at="2023-01-25T03:45:44Z">
+      <class name="com.obsqura.ProjectServiceApp.HomePageTest">
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="6" started-at="2023-01-25T09:15:03Z" finished-at="2023-01-25T09:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="8437" started-at="2023-01-25T09:15:03Z" finished-at="2023-01-25T09:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyClickOnClientMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnClientMoreInfo" duration-ms="6499" started-at="2023-01-25T09:15:11Z" finished-at="2023-01-25T09:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnClientMoreInfo -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="696" started-at="2023-01-25T09:15:18Z" finished-at="2023-01-25T09:15:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnClientMoreInfo status=SUCCESS method=HomePageTest.verifyClickOnClientMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="2" started-at="2023-01-25T09:15:19Z" finished-at="2023-01-25T09:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="5475" started-at="2023-01-25T09:15:19Z" finished-at="2023-01-25T09:15:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyClickOnInventoryProductsMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnInventoryProductsMoreInfo" duration-ms="3190" started-at="2023-01-25T09:15:24Z" finished-at="2023-01-25T09:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnInventoryProductsMoreInfo -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="664" started-at="2023-01-25T09:15:27Z" finished-at="2023-01-25T09:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnInventoryProductsMoreInfo status=SUCCESS method=HomePageTest.verifyClickOnInventoryProductsMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="2" started-at="2023-01-25T09:15:28Z" finished-at="2023-01-25T09:15:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="5371" started-at="2023-01-25T09:15:28Z" finished-at="2023-01-25T09:15:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="verifyClickOnPlusIcon()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnPlusIcon" duration-ms="2416" started-at="2023-01-25T09:15:33Z" finished-at="2023-01-25T09:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnPlusIcon -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="709" started-at="2023-01-25T09:15:36Z" finished-at="2023-01-25T09:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnPlusIcon status=SUCCESS method=HomePageTest.verifyClickOnPlusIcon()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="5350" started-at="2023-01-25T09:15:36Z" finished-at="2023-01-25T09:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="PASS" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:36Z" finished-at="2023-01-25T09:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="FAIL" signature="verifyClickOnSendSMS()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnSendSMS" duration-ms="2400" started-at="2023-01-25T09:15:42Z" finished-at="2023-01-25T09:15:44Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.76)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'GLENN', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c5ffacd3a88671cca8868cc52759cf0, findElement {using=xpath, value=//li[@class='dropdown item-more']//child::a[@class='dropdown-toggle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\glenj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59909/devtoo..., se:cdpVersion: 109.0.5414.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c5ffacd3a88671cca8868cc52759cf0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.76)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'GLENN', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c5ffacd3a88671cca8868cc52759cf0, findElement {using=xpath, value=//li[@class='dropdown item-more']//child::a[@class='dropdown-toggle']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\glenj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59909/devtoo..., se:cdpVersion: 109.0.5414.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c5ffacd3a88671cca8868cc52759cf0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at pages.HomePage.clickOnPlusIcon(HomePage.java:80)
+	at com.obsqura.ProjectServiceApp.HomePageTest.verifyClickOnSendSMS(HomePageTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnSendSMS -->
+        <test-method status="FAIL" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnSendSMS status=FAILURE method=HomePageTest.verifyClickOnSendSMS()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.76)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'GLENN', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c5ffacd3a88671cca8868cc52759cf0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\glenj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59909/devtoo..., se:cdpVersion: 109.0.5414.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c5ffacd3a88671cca8868cc52759cf0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.76)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'GLENN', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c5ffacd3a88671cca8868cc52759cf0, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.76, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\glenj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59909}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59909/devtoo..., se:cdpVersion: 109.0.5414.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c5ffacd3a88671cca8868cc52759cf0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:331)
+	at utilities.ScreenshotUtility.getScreenShot(ScreenshotUtility.java:16)
+	at com.obsqura.ProjectServiceApp.Base.browserQuit(Base.java:75)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="SKIP" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="SKIP" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifyClickOnUserIconSignOut()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnUserIconSignOut" duration-ms="1" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnUserIconSignOut -->
+        <test-method status="SKIP" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="SKIP" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="SKIP" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifyClickOnreparationMoreInfo()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyClickOnreparationMoreInfo" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnreparationMoreInfo -->
+        <test-method status="SKIP" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="SKIP" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="SKIP" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifyclickOnAddReparation()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyclickOnAddReparation" duration-ms="2" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickOnAddReparation -->
+        <test-method status="SKIP" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="SKIP" signature="initialiseBrowser()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initialiseBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="SKIP" signature="initializeBrowser(java.lang.String)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="initializeBrowser" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method status="SKIP" signature="verifyclickOnSendEmail()[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="verifyclickOnSendEmail" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclickOnSendEmail -->
+        <test-method status="SKIP" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.ProjectServiceApp.HomePageTest@27c86f2d]" name="browserQuit" is-config="true" duration-ms="0" started-at="2023-01-25T09:15:44Z" finished-at="2023-01-25T09:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.ProjectServiceApp.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

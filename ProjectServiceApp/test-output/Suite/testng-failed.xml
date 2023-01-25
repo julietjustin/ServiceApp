@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="edge"/>
+  <listeners>
+    <listener class-name="com.obsqura.ProjectServiceApp.Listeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.obsqura.ProjectServiceApp.HomePageTest">
+        <methods>
+          <include name="verifyclickOnSendEmail"/>
+          <include name="initializeBrowser"/>
+          <include name="verifyClickOnUserIconSignOut"/>
+          <include name="verifyClickOnreparationMoreInfo"/>
+          <include name="initialiseBrowser"/>
+          <include name="verifyClickOnSendSMS"/>
+          <include name="verifyclickOnAddReparation"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- com.obsqura.ProjectServiceApp.HomePageTest -->
+      <class name="com.obsqura.ProjectServiceApp.LoginPageTest">
+        <methods>
+          <include name="initializeBrowser"/>
+          <include name="initialiseBrowser"/>
+          <include name="browserQuit"/>
+        </methods>
+      </class> <!-- com.obsqura.ProjectServiceApp.LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
